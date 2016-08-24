@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JHTextView" customModule="ElectricizePile" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="AHv-Pg-JIR"/>
+                <outlet property="placeholderLabel" destination="yXf-Vk-Gvu" id="OH4-ao-NdL"/>
+                <outlet property="textView" destination="bGN-Cp-tsx" id="oo7-Ls-SGa"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="276" height="133"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bGN-Cp-tsx">
+                    <rect key="frame" x="0.0" y="0.0" width="276" height="133"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="在此输入..." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yXf-Vk-Gvu">
+                    <rect key="frame" x="8" y="10" width="258" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.70588235294117641" green="0.70588235294117641" blue="0.70588235294117641" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="bGN-Cp-tsx" secondAttribute="trailing" id="6JY-ah-t8p"/>
+                <constraint firstAttribute="bottom" secondItem="bGN-Cp-tsx" secondAttribute="bottom" id="8bG-Ow-040"/>
+                <constraint firstAttribute="trailing" secondItem="yXf-Vk-Gvu" secondAttribute="trailing" constant="10" id="HGX-Vv-HlT"/>
+                <constraint firstItem="bGN-Cp-tsx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="HKS-hM-byr"/>
+                <constraint firstItem="yXf-Vk-Gvu" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="S3Z-uQ-y7u"/>
+                <constraint firstItem="bGN-Cp-tsx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="aoc-SQ-gXF"/>
+                <constraint firstItem="yXf-Vk-Gvu" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="egN-o3-6iJ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-261" y="95.5"/>
+        </view>
+    </objects>
+</document>

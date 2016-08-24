@@ -1,0 +1,3 @@
+# JHTextView
+带有占位符的textView
+在storyboard中只需要创建一个view与其关联，就能自定义textView的placeholder文字，可以修改文字大小和颜色
